@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <main>
+
+        <form action="https://tm-statweb.be/forms.php" method="post">
+            <!--Get of Post gebruiken als Method-->
+
+            <label for="IP_email">E-mailadres:</label><br>
+            <input type="email" name="IP_email" id="IP_email" required><br><br>
+            <label for="IP_password">Wachtwoord:</label><br>
+            <input type="password" name="IP_password" id="IP_password" required><br><br>
+            <label for="IP_date">Datum:</label><br>
+            <input type="date" name="IP_date" id="IP_date"><br><br>
+            <label for="IP_text">Kleur:</label><br>
+            <input type="text" name="IP_text" id="IP_text" placeholder="Rood" disabled><br><br>
+            <label for="">Kleur ogen:</label>
+            <select name="IP_eyecolor" id="IP_eyecolor">
+                <option value="blue">Blauw</option>
+                <option value="green">Groen</option>
+                <option value="brown">Bruin</option>
+            </select><br><br>
+            <label for="ID_textarea">Bericht</label><br>
+            <textarea name="ID_textarea" id="ID_textarea"></textarea><br><br>
+            <input type="submit" value="Verzenden">
+        </form>
+    </main>
+</body>
+</html>

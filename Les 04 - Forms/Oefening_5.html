@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefening 5</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <label for="IP_surname">Voornaam:</label>
+        <input type="text" name="IP_surname" id="IP_surname" required><br>
+        <label for="IP_name">Familienaam:</label>
+        <input type="text" name="IP_name" id="IP_name" required><br>
+        <label for="IP_adres">Adres:</label>
+        <input type="text" name="IP_adres" id="IP_adres"><br>
+        <label for="IP_province">Provincie:</label>
+        <select name="IP_province" id="IP_province" placeholder="Limburg">
+            <option value="Limburg">Limburg</option>
+            <option value="Antwerpen">Antwerpen</option>
+            <option value="Brussel">Brussel</option>
+            <option value="Henegouwen">Henegouwen</option>
+            <option value="Luik">Luik</option>
+            <option value="Luxemburg">Luxemburg</option>
+            <option value="Namen">Namen</option>
+            <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+            <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+            <option value="Waals-Brabant">Waals-Brabant</option>
+            <option value="West-Vlaanderen">West-Vlaanderen</option>
+
+        </select><br>
+        <fieldset>
+            <legend>Geslacht</legend>
+        <input type="radio" id="IP_gender" name="IP_gender" value="Man">
+        <label for="IP_gender">Man</label>
+        <input type="radio" id="IP_gender" name="IP_gender" value="Vrouw">
+        <label for="IP_gender">Vrouw</label>
+        <input type="radio" id="IP_gender" name="IP_gender" value="Ander">
+        <label for="IP_gender">Ander</label><br> 
+    </fieldset>
+    <label for="IP_file">Foto</label>
+    <input type="file" id="IP_file" name="IP_file" required><br>
+    <label for="IP_agree">Ik ga akkoord met de algemene voorwaarden</label>
+    <input type="checkbox" name="IP_agree" id="IP_agree"><br>
+    <input type="submit" value="Registreren">
+    </form>
+</body>
+</html>
