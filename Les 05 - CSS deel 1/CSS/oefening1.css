@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: gainsboro;
+}
+h1 {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+h2 {
+    background-color: lightblue;
+    border-left: 10px solid;
+    border-color: dodgerblue;
+    text-indent: 10px;
+}
+p{
+    color: grey;
+}
+
+strong{
+    color: black;
+}
+em{
+    text-decoration: underline;
+}

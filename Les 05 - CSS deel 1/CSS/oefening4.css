@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    background-color: beige;
+}
+th{
+    background-color: forestgreen;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}

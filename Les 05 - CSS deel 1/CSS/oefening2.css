@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+a:link {
+    color: orangered;
+    text-decoration: none;
+}
+a:visited {
+    color: orangered;
+    text-decoration: none;
+}

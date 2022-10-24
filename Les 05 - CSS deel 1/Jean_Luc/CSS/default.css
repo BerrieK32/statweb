@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+}
+
+ul.navigation{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #008693;
+    border-bottom: 4px solid #f04c25;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+ul.navigation li{
+    float: left;
+}
+ul.navigation li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+ul.navigation li.heading{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.active{
+    background-color: #f04c25;
+}
+
+footer{
+    background-color: #008693;
+    color: #fff;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+    border-top: 4px solid #f04c25;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.m-10{
+    margin: 10px;
+}
+.m-20{
+    margin: 20px;
+}
+
+.content-left{
+    width: 60%;
+    float: left;
+    padding-right: 10px;
+}
+.content-right{
+    width: 40%;
+    float: right;
+    padding-left: 10px;
+}
+
+.koptelefoon{
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: #f04c25;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+input[type="textarea"]{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+iframe{
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .content-left, .content-right{
+        width: 100%;
+        float: none;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

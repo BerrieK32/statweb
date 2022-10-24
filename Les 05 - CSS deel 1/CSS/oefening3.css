@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+ol {
+    background-color: #ff9999;
+    padding: 20px;
+}
+
+li {
+    background-color: pink;
+    padding: 20px;
+}
+
+ol li {
+    background-color: #ffe5e5;
+    padding: 5px;
+  }
+ul {
+    background-color: dodgerblue;
+    padding: 2px;
+}
+ ul li {
+    background-color: #cce5ff;
+    margin: 20px;
+
+  }
